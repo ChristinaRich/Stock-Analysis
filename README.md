@@ -25,7 +25,7 @@ This second screenshot below closes the first loop, and then creates a second lo
 
 ### Advantages and Disadvantages of Refactoring
 
-Refactoring makes our code more efficient. In this refactoring analysis, we simplified the code using fewer steps and clearer code. This not only uses less memory (decreasing the time to process the macro), it also helps other users to read clearer code. Refactoring takes more time to do up front because you have to make changes and analyze opportunities for efficiency, but it is worth the effort for the efficiency savings later. As we saw with this example, the refactoring of the original VBA script did exactly this. We decreased the runtime, and it is much easier to follow going forward for other users. 
+Refactoring makes our code more efficient. In this refactoring analysis, we simplified the code using fewer steps and clearer code. This not only uses less memory (decreasing the time to process the macro), it also helps other users to read clearer code. Refactoring takes more time to do up front because you have to make changes and analyze opportunities for efficiency, but it is worth the effort for the efficiency savings later. As we saw with this example, the refactoring of the original VBA script did exactly this. We decreased the runtime, and it is much easier to follow going forward for other users. If the user wants to expand the number of stock tickers they're analyzing, the refactored script would be much quicker, even if it did take more time to plan and edit. 
 
 
 
